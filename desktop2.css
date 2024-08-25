@@ -1,4 +1,4 @@
-.free-vector-network-mesh-wir1 {
+.free-vector-network-mesh-wir {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -12,7 +12,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child1 {
+.frame-child {
   height: 2.5rem;
   width: 5.625rem;
   position: relative;
@@ -20,7 +20,7 @@
   background-color: var(--color-black);
   display: none;
 }
-.home1 {
+.home {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -32,11 +32,11 @@
   min-width: 3.125rem;
   z-index: 1;
 }
-.frame-child2,
-.group-button {
+.frame-item,
+.rectangle-parent {
   background-color: var(--color-black);
 }
-.group-button {
+.rectangle-parent {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-xl);
@@ -47,19 +47,19 @@
   justify-content: flex-start;
   z-index: 1;
 }
-.group-button:hover,
-.rectangle-parent1:hover,
-.rectangle-parent2:hover {
+.rectangle-container:hover,
+.rectangle-group:hover,
+.rectangle-parent:hover {
   background-color: var(--color-darkslategray);
 }
-.frame-child2 {
+.frame-item {
   height: 2.5rem;
   width: 5.625rem;
   position: relative;
   border-radius: var(--br-980xl);
   display: none;
 }
-.about1 {
+.about {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -71,7 +71,7 @@
   min-width: 3.625rem;
   z-index: 1;
 }
-.rectangle-parent1 {
+.rectangle-group {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-base);
@@ -83,7 +83,7 @@
   justify-content: flex-start;
   z-index: 1;
 }
-.hobbies1 {
+.hobbies {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -95,7 +95,7 @@
   min-width: 4.438rem;
   z-index: 1;
 }
-.rectangle-parent2 {
+.rectangle-container {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-4xs);
@@ -108,7 +108,7 @@
   white-space: nowrap;
   z-index: 1;
 }
-.contact1 {
+.contact {
   text-decoration: none;
   position: relative;
   font-weight: 600;
@@ -117,21 +117,24 @@
   min-width: 5rem;
   z-index: 1;
 }
-.navigation1,
-.rectangle-parent3 {
+.group-div,
+.navigation {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
 }
-.rectangle-parent3 {
+.group-div {
   border-radius: var(--br-980xl);
   background-color: var(--color-black);
   padding: var(--padding-2xs) var(--padding-8xs);
+  cursor: pointer;
   z-index: 1;
 }
-.navigation1 {
+.navigation {
   margin: 0;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
   gap: var(--gap-8xs);
   max-width: 100%;
   text-align: left;
@@ -139,161 +142,166 @@
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-.fb-facebook-facebook-logo-icon {
-  height: 8rem;
-  width: 8rem;
+.ecb9c046-28a9-4f80-9d9e-7f5afb-icon {
+  height: 15.625rem;
+  width: 15.625rem;
   position: relative;
+  border-radius: 50%;
   object-fit: cover;
 }
-.mary-grace-paredes {
-  height: 4.813rem;
+.i-love-baking {
+  align-self: stretch;
   position: relative;
-  font-weight: 900;
-  display: flex;
-  align-items: flex-end;
+  font-weight: 600;
 }
-.platform-icons,
-.social-usernames {
+.baking-description,
+.colors {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.social-usernames {
-  flex-direction: column;
-  padding: var(--padding-6xl-5) 0 0;
-  box-sizing: border-box;
-}
-.platform-icons {
-  align-self: stretch;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  gap: 3.187rem 3rem;
-}
-.greii-ciaa {
-  align-self: stretch;
-  position: relative;
-  font-weight: 900;
-}
-.greii-ciaa-wrapper,
-.platform-icons1 {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  box-sizing: border-box;
-  max-width: 100%;
-}
-.greii-ciaa-wrapper {
+.baking-description {
   flex: 1;
   flex-direction: column;
-  padding: var(--padding-6xl-5) 0 0;
-  min-width: 20.938rem;
+  padding: var(--padding-52xl) 0 0;
+  box-sizing: border-box;
+  min-width: 35rem;
 }
-.platform-icons1 {
+.colors {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-14xl);
+}
+.i-want-to {
+  margin: 0;
+}
+.i-want-to-container {
+  position: relative;
+  font-weight: 600;
+}
+.colors1,
+.i-want-to-go-to-the-beach-and-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.i-want-to-go-to-the-beach-and-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: 1.968rem 0 0;
+  min-width: 21.563rem;
+}
+.colors1 {
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
   padding: 0 var(--padding-11xs) 0 0;
-  gap: 3.187rem 3.062rem;
-}
-.paredes-mary-grace17 {
-  position: relative;
-  font-weight: 900;
-}
-.platform-icons2,
-.social-icons {
-  align-items: flex-start;
-  max-width: 100%;
-}
-.platform-icons2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-content: flex-start;
-  padding: 0 var(--padding-11xs) 0 0;
-  box-sizing: border-box;
-  gap: 3.187rem 3.062rem;
-}
-.social-icons {
-  width: 55.438rem;
-  flex-direction: column;
-  gap: 5.875rem;
+  gap: 2.062rem 1.937rem;
   z-index: 1;
 }
-.desktop-4,
-.social,
-.social-icons {
-  display: flex;
-  justify-content: flex-start;
+.peace-and {
+  margin: 0;
+  white-space: pre-wrap;
 }
-.social {
-  align-self: stretch;
-  flex-direction: row;
+.i-want-hiking-and-exploring-be-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3.312rem 0 0;
+  box-sizing: border-box;
+  min-width: 21.563rem;
+  max-width: 100%;
+}
+.colors-parent,
+.content-inner {
   align-items: flex-start;
   max-width: 100%;
+}
+.colors-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+}
+.content-inner {
+  width: 71.563rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  z-index: 2;
   text-align: left;
-  font-size: var(--font-size-45xl);
+  font-size: var(--font-size-11xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-.desktop-4 {
+.content,
+.content-inner,
+.desktop-3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.desktop-3 {
   width: 100%;
   position: relative;
   overflow: hidden;
   flex-direction: column;
   align-items: flex-end;
-  padding: var(--padding-29xl) var(--padding-54xl) 14.125rem;
+  padding: var(--padding-29xl) var(--padding-54xl) 3.437rem var(--padding-base);
   box-sizing: border-box;
-  gap: 8.625rem;
-  background-image: url(./public/desktop--4@3x.png);
+  gap: 2.562rem;
+  background-image: url(./public/desktop--3@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 900px) {
-  .greii-ciaa,
-  .mary-grace-paredes,
-  .paredes-mary-grace17 {
-    font-size: var(--font-size-32xl);
+@media screen and (max-width: 1000px) {
+  .colors {
+    flex-wrap: wrap;
   }
-  .social-icons {
-    gap: 2.938rem;
+}
+@media screen and (max-width: 975px) {
+  .i-love-baking,
+  .i-want-to-container {
+    font-size: var(--font-size-5xl);
   }
-  .desktop-4 {
-    gap: 4.313rem;
-    padding-left: var(--padding-17xl);
+  .desktop-3 {
+    gap: var(--gap-xl);
     padding-right: var(--padding-17xl);
     box-sizing: border-box;
   }
 }
+@media screen and (max-width: 725px) {
+  .baking-description {
+    min-width: 100%;
+  }
+  .colors {
+    gap: 1rem;
+  }
+  .colors1 {
+    gap: var(--gap-mini);
+  }
+  .colors-parent {
+    gap: 1.375rem;
+  }
+}
 @media screen and (max-width: 450px) {
-  .mary-grace-paredes {
-    font-size: var(--font-size-19xl);
-  }
-  .platform-icons {
-    gap: var(--gap-5xl);
-  }
-  .greii-ciaa {
-    font-size: var(--font-size-19xl);
-  }
-  .platform-icons1 {
-    gap: var(--gap-5xl);
-  }
-  .paredes-mary-grace17 {
-    font-size: var(--font-size-19xl);
-  }
-  .platform-icons2 {
-    gap: var(--gap-5xl);
-  }
-  .social-icons {
-    gap: 1.438rem;
-  }
-  .desktop-4 {
-    gap: 2.125rem;
+  .i-love-baking,
+  .i-want-to-container {
+    font-size: var(--font-size-lg);
   }
 }

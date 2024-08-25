@@ -1,4 +1,4 @@
-.free-vector-network-mesh-wir2 {
+.free-vector-network-mesh-wir3 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -12,7 +12,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child5 {
+.frame-child9 {
   height: 2.5rem;
   width: 5.625rem;
   position: relative;
@@ -20,7 +20,7 @@
   background-color: var(--color-black);
   display: none;
 }
-.home2 {
+.home3 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -32,11 +32,11 @@
   min-width: 3.125rem;
   z-index: 1;
 }
-.frame-child6,
-.rectangle-parent4 {
+.frame-child10,
+.rectangle-parent8 {
   background-color: var(--color-black);
 }
-.rectangle-parent4 {
+.rectangle-parent8 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-xl);
@@ -47,20 +47,20 @@
   justify-content: flex-start;
   z-index: 1;
 }
-.rectangle-parent4:hover,
-.rectangle-parent5:hover,
-.rectangle-parent6:hover,
-.rectangle-parent7:hover {
+.rectangle-parent10:hover,
+.rectangle-parent11:hover,
+.rectangle-parent8:hover,
+.rectangle-parent9:hover {
   background-color: var(--color-darkslategray);
 }
-.frame-child6 {
+.frame-child10 {
   height: 2.5rem;
   width: 5.625rem;
   position: relative;
   border-radius: var(--br-980xl);
   display: none;
 }
-.about2 {
+.about3 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -72,7 +72,7 @@
   min-width: 3.625rem;
   z-index: 1;
 }
-.rectangle-parent5 {
+.rectangle-parent9 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-base);
@@ -84,7 +84,7 @@
   justify-content: flex-start;
   z-index: 1;
 }
-.hobbies2 {
+.hobbies3 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -96,7 +96,7 @@
   min-width: 4.438rem;
   z-index: 1;
 }
-.rectangle-parent6 {
+.rectangle-parent10 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-4xs);
@@ -109,7 +109,7 @@
   white-space: nowrap;
   z-index: 1;
 }
-.contact2 {
+.contact3 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -121,109 +121,161 @@
   min-width: 5rem;
   z-index: 1;
 }
-.navigation2,
-.rectangle-parent7 {
+.navigation3,
+.network,
+.rectangle-parent11 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-start;
 }
-.rectangle-parent7 {
+.rectangle-parent11 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-8xs);
   background-color: var(--color-black);
   border-radius: var(--br-980xl);
-  z-index: 1;
-}
-.navigation2 {
-  margin: 0;
-  gap: var(--gap-8xs);
-  max-width: 100%;
-}
-.about-me {
-  margin: 0;
-  position: relative;
-  font-size: inherit;
-  font-weight: 700;
-  font-family: inherit;
-  z-index: 1;
-}
-.hello-there-a {
-  margin: 0;
-}
-.hello-there-a-container {
-  align-self: stretch;
-  position: relative;
-  font-size: 32px;
-  z-index: 1;
-}
-.about-content {
-  width: 72.063rem;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2.312rem;
-  max-width: 100%;
-}
-.about-content,
-.about-content-wrapper,
-.desktop-2 {
-  display: flex;
   justify-content: flex-start;
+  z-index: 1;
 }
-.about-content-wrapper {
+.navigation3,
+.network {
+  max-width: 100%;
+}
+.navigation3 {
+  margin: 0;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.network {
+  justify-content: flex-end;
+  padding: 0 3.5rem;
+  box-sizing: border-box;
+}
+.greetings {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.titles {
   align-self: stretch;
+  display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.im-mary-grace1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  z-index: 1;
+}
+.info,
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info {
+  align-self: stretch;
+  gap: 5rem;
+  flex-shrink: 0;
+}
+.introduction {
+  flex: 1;
+  padding: 0 0 2.5rem;
+  box-sizing: border-box;
+  min-width: 38rem;
+  min-height: 24.313rem;
+  max-width: 100%;
+}
+.bb887e47-cf6f-4cb1-ad11-490b19-icon {
+  width: 30.5rem;
+  position: relative;
+  border-radius: var(--radius-full);
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.content1,
+.desktop-1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.content1 {
+  align-self: stretch;
+  flex-direction: row;
+  row-gap: 20px;
   max-width: 100%;
   text-align: left;
   font-size: var(--font-size-29xl);
   color: var(--color-black);
   font-family: var(--font-inter);
 }
-.desktop-2 {
+.desktop-1 {
   width: 100%;
   position: relative;
   overflow: hidden;
   flex-direction: column;
-  align-items: flex-end;
-  padding: var(--padding-29xl) var(--padding-54xl) 14.5rem var(--padding-52xl);
+  padding: var(--padding-29xl) var(--padding-base) 17.562rem 0;
   box-sizing: border-box;
-  gap: 11.312rem;
-  background-image: url(./public/desktop--2@3x.png);
+  gap: 10.75rem;
+  background-image: url(./public/desktop--1@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 750px) {
-  .about-me {
-    font-size: var(--font-size-19xl);
+@media screen and (max-width: 1125px) {
+  .bb887e47-cf6f-4cb1-ad11-490b19-icon {
+    flex: 1;
   }
-  .hello-there-a-container {
-    font-size: 26px;
-  }
-  .desktop-2 {
-    gap: 5.625rem;
-    padding-left: 2.188rem;
-    padding-right: var(--padding-17xl);
-    box-sizing: border-box;
+  .content1 {
+    flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 675px) {
-  .about-content {
-    gap: 1.125rem;
+@media screen and (max-width: 1050px) {
+  .greetings {
+    font-size: var(--font-size-19xl);
+  }
+  .im-mary-grace1 {
+    font-size: var(--font-size-29xl);
+  }
+  .info {
+    gap: 2.5rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .network {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .info {
+    gap: var(--gap-xl);
+  }
+  .introduction {
+    min-width: 100%;
+  }
+  .desktop-1 {
+    gap: 5.375rem;
   }
 }
 @media screen and (max-width: 450px) {
-  .about-me {
+  .greetings {
     font-size: var(--font-size-10xl);
   }
-  .hello-there-a-container {
-    font-size: 19px;
+  .im-mary-grace1 {
+    font-size: 36px;
   }
-  .desktop-2 {
-    gap: var(--gap-26xl);
+  .desktop-1 {
+    gap: 2.688rem;
   }
 }
