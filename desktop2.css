@@ -1,4 +1,4 @@
-.free-vector-network-mesh-wir {
+.free-vector-network-mesh-wir1 {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -12,7 +12,7 @@
   max-height: 100%;
   object-fit: cover;
 }
-.frame-child {
+.frame-child1 {
   height: 2.5rem;
   width: 5.625rem;
   position: relative;
@@ -20,7 +20,7 @@
   background-color: var(--color-black);
   display: none;
 }
-.home {
+.home1 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -32,11 +32,11 @@
   min-width: 3.125rem;
   z-index: 1;
 }
-.frame-item,
-.rectangle-parent {
+.frame-child2,
+.group-button {
   background-color: var(--color-black);
 }
-.rectangle-parent {
+.group-button {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-xl);
@@ -45,21 +45,20 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  z-index: 1;
 }
-.rectangle-container:hover,
-.rectangle-group:hover,
-.rectangle-parent:hover {
+.group-button:hover,
+.rectangle-parent1:hover,
+.rectangle-parent2:hover {
   background-color: var(--color-darkslategray);
 }
-.frame-item {
+.frame-child2 {
   height: 2.5rem;
   width: 5.625rem;
   position: relative;
   border-radius: var(--br-980xl);
   display: none;
 }
-.about {
+.about1 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -71,7 +70,7 @@
   min-width: 3.625rem;
   z-index: 1;
 }
-.rectangle-group {
+.rectangle-parent1 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-base);
@@ -81,9 +80,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  z-index: 1;
 }
-.hobbies {
+.hobbies1 {
   text-decoration: none;
   position: relative;
   font-size: var(--font-size-base);
@@ -95,7 +93,7 @@
   min-width: 4.438rem;
   z-index: 1;
 }
-.rectangle-container {
+.rectangle-parent2 {
   cursor: pointer;
   border: 0;
   padding: var(--padding-2xs) var(--padding-4xs);
@@ -106,9 +104,8 @@
   align-items: flex-start;
   justify-content: flex-start;
   white-space: nowrap;
-  z-index: 1;
 }
-.contact {
+.contact1 {
   text-decoration: none;
   position: relative;
   font-weight: 600;
@@ -117,191 +114,186 @@
   min-width: 5rem;
   z-index: 1;
 }
-.group-div,
-.navigation {
+.rectangle-parent3 {
+  border-radius: var(--br-980xl);
+  background-color: var(--color-black);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-}
-.group-div {
-  border-radius: var(--br-980xl);
-  background-color: var(--color-black);
   padding: var(--padding-2xs) var(--padding-8xs);
-  cursor: pointer;
-  z-index: 1;
 }
-.navigation {
+.frame-parent {
   margin: 0;
-  padding: 0 0 0 var(--padding-xl);
-  box-sizing: border-box;
-  gap: var(--gap-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 0.312rem 0.231rem;
   max-width: 100%;
+  z-index: 1;
   text-align: left;
   font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-inter);
 }
-.ecb9c046-28a9-4f80-9d9e-7f5afb-icon {
-  height: 15.625rem;
-  width: 15.625rem;
+.fb-facebook-facebook-logo-icon {
+  height: 8rem;
+  width: 8rem;
   position: relative;
-  border-radius: 50%;
   object-fit: cover;
 }
-.i-love-baking {
-  align-self: stretch;
+.mary-grace-paredes {
+  height: 4.813rem;
   position: relative;
-  font-weight: 600;
+  font-weight: 900;
+  display: flex;
+  align-items: flex-end;
 }
-.baking-description,
-.colors {
+.platform-icons,
+.social-handles {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   max-width: 100%;
 }
-.baking-description {
-  flex: 1;
+.social-handles {
   flex-direction: column;
-  padding: var(--padding-52xl) 0 0;
+  padding: var(--padding-6xl-5) 0 0;
   box-sizing: border-box;
-  min-width: 35rem;
 }
-.colors {
+.platform-icons {
   align-self: stretch;
   flex-direction: row;
-  gap: var(--gap-14xl);
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 3.187rem 3rem;
 }
-.i-want-to {
-  margin: 0;
-}
-.i-want-to-container {
+.greii-ciaa {
+  align-self: stretch;
   position: relative;
-  font-weight: 600;
+  font-weight: 900;
 }
-.colors1,
-.i-want-to-go-to-the-beach-and-wrapper {
+.greii-ciaa-wrapper,
+.platform-icons1 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   max-width: 100%;
 }
-.i-want-to-go-to-the-beach-and-wrapper {
+.greii-ciaa-wrapper {
   flex: 1;
   flex-direction: column;
-  padding: 1.968rem 0 0;
-  min-width: 21.563rem;
+  padding: var(--padding-6xl-5) 0 0;
+  min-width: 20.938rem;
 }
-.colors1 {
+.platform-icons1 {
   align-self: stretch;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: flex-start;
   padding: 0 var(--padding-11xs) 0 0;
-  gap: 2.062rem 1.937rem;
-  z-index: 1;
+  gap: 3.187rem 3.062rem;
 }
-.peace-and {
-  margin: 0;
-  white-space: pre-wrap;
+.paredes-mary-grace17 {
+  position: relative;
+  font-weight: 900;
 }
-.i-want-hiking-and-exploring-be-wrapper {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  padding: 3.312rem 0 0;
-  box-sizing: border-box;
-  min-width: 21.563rem;
-  max-width: 100%;
-}
-.colors-parent,
-.content-inner {
+.platform-icons2,
+.social-icons {
   align-items: flex-start;
   max-width: 100%;
 }
-.colors-parent {
-  flex: 1;
+.platform-icons2 {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: var(--gap-26xl);
-}
-.content-inner {
-  width: 71.563rem;
   flex-direction: row;
+  justify-content: flex-start;
   flex-wrap: wrap;
   align-content: flex-start;
-  z-index: 2;
-  text-align: left;
-  font-size: var(--font-size-11xl);
-  color: var(--color-black);
-  font-family: var(--font-inter);
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: 3.187rem 3.062rem;
 }
-.content,
-.content-inner,
-.desktop-3 {
+.social-icons {
+  width: 55.438rem;
+  flex-direction: column;
+  gap: 5.875rem;
+  z-index: 1;
+}
+.desktop2,
+.social-icons,
+.social-icons-wrapper {
   display: flex;
   justify-content: flex-start;
 }
-.content {
+.social-icons-wrapper {
   align-self: stretch;
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
 }
-.desktop-3 {
+.desktop2 {
   width: 100%;
   position: relative;
   overflow: hidden;
   flex-direction: column;
   align-items: flex-end;
-  padding: var(--padding-29xl) var(--padding-54xl) 3.437rem var(--padding-base);
+  padding: var(--padding-29xl) var(--padding-54xl) 14.125rem;
   box-sizing: border-box;
-  gap: 2.562rem;
-  background-image: url(./public/desktop--3@3x.png);
+  gap: 8.625rem;
+  background-image: url(./public/desktop--4@3x.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   line-height: normal;
   letter-spacing: normal;
 }
-@media screen and (max-width: 1000px) {
-  .colors {
-    flex-wrap: wrap;
+@media screen and (max-width: 900px) {
+  .greii-ciaa,
+  .mary-grace-paredes,
+  .paredes-mary-grace17 {
+    font-size: var(--font-size-32xl);
   }
-}
-@media screen and (max-width: 975px) {
-  .i-love-baking,
-  .i-want-to-container {
-    font-size: var(--font-size-5xl);
+  .social-icons {
+    gap: 2.938rem;
   }
-  .desktop-3 {
-    gap: var(--gap-xl);
+  .desktop2 {
+    gap: 4.313rem;
+    padding-left: var(--padding-17xl);
     padding-right: var(--padding-17xl);
     box-sizing: border-box;
   }
 }
-@media screen and (max-width: 725px) {
-  .baking-description {
-    min-width: 100%;
-  }
-  .colors {
-    gap: 1rem;
-  }
-  .colors1 {
-    gap: var(--gap-mini);
-  }
-  .colors-parent {
-    gap: 1.375rem;
-  }
-}
 @media screen and (max-width: 450px) {
-  .i-love-baking,
-  .i-want-to-container {
-    font-size: var(--font-size-lg);
+  .mary-grace-paredes {
+    font-size: var(--font-size-19xl);
+  }
+  .platform-icons {
+    gap: var(--gap-5xl);
+  }
+  .greii-ciaa {
+    font-size: var(--font-size-19xl);
+  }
+  .platform-icons1 {
+    gap: var(--gap-5xl);
+  }
+  .paredes-mary-grace17 {
+    font-size: var(--font-size-19xl);
+  }
+  .platform-icons2 {
+    gap: var(--gap-5xl);
+  }
+  .social-icons {
+    gap: 1.438rem;
+  }
+  .desktop2 {
+    gap: 2.125rem;
   }
 }

@@ -30,7 +30,7 @@ body {
   --gap-xl: 1.25rem;
   --gap-26xl: 2.812rem;
   --gap-14xl: 2.062rem;
-  --gap-mini: 0.937rem;
+  --gap-base: 1rem;
   --gap-8xs: 0.312rem;
   --gap-32xl: 3.187rem;
   --gap-5xl: 1.5rem;
@@ -40,12 +40,12 @@ body {
   --padding-54xl: 4.562rem;
   --padding-base: 1rem;
   --padding-17xl: 2.25rem;
-  --padding-11xs: 0.125rem;
   --padding-52xl: 4.437rem;
   --padding-xl: 1.25rem;
   --padding-2xs: 0.687rem;
   --padding-8xs: 0.312rem;
   --padding-4xs: 0.562rem;
+  --padding-11xs: 0.125rem;
   --padding-6xl-5: 1.593rem;
   --padding-9xl: 1.75rem;
 
