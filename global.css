@@ -8,43 +8,48 @@ body {
   --font-inter: Inter;
 
   /* font sizes */
-  --font-size-16xl: 35px;
-  --font-size-2xl: 21px;
-  --font-size-9xl: 28px;
-  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
   --font-size-base: 16px;
   --font-size-45xl: 64px;
-  --font-size-32xl: 51px;
   --font-size-19xl: 38px;
-  --font-size-10xl: 29px;
+  --font-size-32xl: 51px;
   --font-size-29xl: 48px;
+  --font-size-10xl: 29px;
 
   /* Colors */
   --color-black: #000;
   --color-white: #fff;
   --color-darkslategray: #333;
-  --color-gainsboro: #d9d9d9;
 
   /* Spacing */
   --radius-full: 624.937rem;
 
   /* Gaps */
+  --gap-xl: 1.25rem;
+  --gap-26xl: 2.812rem;
+  --gap-14xl: 2.062rem;
   --gap-mini: 0.937rem;
+  --gap-8xs: 0.312rem;
   --gap-32xl: 3.187rem;
-  --gap-6xl: 1.562rem;
+  --gap-5xl: 1.5rem;
 
   /* Paddings */
-  --padding-26xl: 2.812rem;
-  --padding-39xl: 3.625rem;
+  --padding-29xl: 3rem;
+  --padding-54xl: 4.562rem;
   --padding-base: 1rem;
-  --padding-10xl: 1.812rem;
+  --padding-17xl: 2.25rem;
+  --padding-11xs: 0.125rem;
+  --padding-52xl: 4.437rem;
   --padding-xl: 1.25rem;
-  --padding-lgi: 1.187rem;
-  --padding-smi: 0.812rem;
-  --padding-sm: 0.875rem;
-  --padding-24xl: 2.687rem;
-  --padding-2xl: 1.312rem;
+  --padding-2xs: 0.687rem;
+  --padding-8xs: 0.312rem;
+  --padding-4xs: 0.562rem;
+  --padding-6xl-5: 1.593rem;
+  --padding-9xl: 1.75rem;
 
   /* Border radiuses */
-  --br-31xl: 50px;
+  --br-980xl: 999px;
+  --br-9980xl: 9999px;
 }

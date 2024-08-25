@@ -8,77 +8,93 @@
     <link rel="stylesheet" href="./index.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;900&display=swap"
     />
   </head>
   <body>
-    <div class="desktop-1">
+    <div class="desktop-2">
       <img
-        class="free-vector-network-mesh-wir3"
+        class="free-vector-network-mesh-wir2"
         alt=""
-        src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725033270/free-vector---network-mesh-wire-digital-technology-background-4_2x_ey7hfk.png"
+        src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725264816/free-vector---network-mesh-wire-digital-technology-background-4_2x_mppu7x.png"
       />
 
-      <div class="navigation-wrapper">
-        <nav class="navigation2">
-          <button class="rectangle-parent8">
-            <div class="frame-child10"></div>
-            <div class="frame-child11"></div>
-            <a class="home3">HOME</a>
-          </button>
-          <div class="rectangle-parent9">
-            <div class="frame-child12" id="rectangle1"></div>
-            <a class="about3">ABOUT</a>
-          </div>
-          <div class="rectangle-parent9">
-            <div class="frame-child12" id="rectangle2"></div>
-            <a class="hobbies3">HOBBIES</a>
-          </div>
-          <div class="rectangle-parent9">
-            <div class="frame-child12" id="rectangle3"></div>
-            <a class="contact3">CONTACT</a>
-          </div>
-        </nav>
-      </div>
-      <section class="frame-container">
-        <div class="greetings-student-wrapper">
-          <div class="greetings-student">
-            <div class="greetings-title">
-              <h1 class="greetings">GREETINGS,</h1>
-            </div>
-            <h1 class="im-mary-grace1">I’M MARY GRACE D. PAREDES</h1>
-            <div class="greetings-title1">
-              <h1 class="college-student">COLLEGE STUDENT</h1>
-            </div>
-          </div>
+      <nav class="navigation2">
+        <button class="rectangle-parent4" id="groupButton">
+          <div class="frame-child5"></div>
+          <a class="home2">HOME</a>
+        </button>
+        <button class="rectangle-parent5">
+          <div class="frame-child6"></div>
+          <a class="about2">ABOUT</a>
+        </button>
+        <button class="rectangle-parent6" id="groupButton2">
+          <div class="frame-child5"></div>
+          <a class="hobbies2">HOBBIES </a>
+        </button>
+        <button class="rectangle-parent7" id="groupButton3">
+          <div class="frame-child6"></div>
+          <a class="contact2">CONTACT</a>
+        </button>
+      </nav>
+      <section class="about-content-wrapper">
+        <div class="about-content">
+          <h3 class="about-me">ABOUT ME</h3>
+          <b class="hello-there-a-container">
+            <p class="hello-there-a">
+              Hello there!. A bit about me, I’m thrilled to welcome you to my
+              portfolio.
+            </p>
+            <p class="hello-there-a">I’m Mary Grace D. Paredes, a dedicated</p>
+            <p class="hello-there-a">
+              Computer Science student with a passion for technology. Currently
+              pursuing my degree in the world of as a computer
+            </p>
+            <p class="hello-there-a">
+              science began with deep curiosity about things
+            </p>
+            <p class="hello-there-a">
+              work behind the scenes. In the beginning, I was interest in the
+            </p>
+            <p class="hello-there-a">
+              technology- how apps, websites and games were built.
+            </p>
+            <p class="hello-there-a">
+              This curiosity led me to dive into programming, starting
+            </p>
+            <p class="hello-there-a">
+              with languages like Python, which opened a whole new world of
+              problem
+            </p>
+            <p class="hello-there-a">
+              solving,creativity and coding. Example works
+            </p>
+            <p class="hello-there-a">
+              just like BankUI using Tkinter and Website using html.
+            </p>
+          </b>
         </div>
-        <img
-          class="bb887e47-cf6f-4cb1-ad11-490b19-icon"
-          loading="lazy"
-          alt=""
-          src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725033267/bb887e47cf6f4cb1ad11490b199b7bf4-1_2x_hfadn7.png"
-        />
       </section>
     </div>
 
     <script>
-      var rectangle = document.getElementById("rectangle1");
-      if (rectangle) {
-        rectangle.addEventListener("click", function (e) {
-          window.location.href = "./desktop1.html";
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./desktop.html";
         });
       }
       
-      var rectangle = document.getElementById("rectangle2");
-      if (rectangle) {
-        rectangle.addEventListener("click", function (e) {
+      var groupButton2 = document.getElementById("groupButton2");
+      if (groupButton2) {
+        groupButton2.addEventListener("click", function (e) {
           window.location.href = "./desktop3.html";
         });
       }
       
-      var rectangle = document.getElementById("rectangle3");
-      if (rectangle) {
-        rectangle.addEventListener("click", function (e) {
+      var groupButton3 = document.getElementById("groupButton3");
+      if (groupButton3) {
+        groupButton3.addEventListener("click", function (e) {
           window.location.href = "./desktop2.html";
         });
       }

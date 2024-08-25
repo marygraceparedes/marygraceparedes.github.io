@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./desktop2.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;900&display=swap"
     />
   </head>
   <body>
@@ -16,88 +16,87 @@
       <img
         class="free-vector-network-mesh-wir1"
         alt=""
-        src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725033270/free-vector---network-mesh-wire-digital-technology-background-4_2x_ey7hfk.png"
+        src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725264816/free-vector---network-mesh-wire-digital-technology-background-4_2x_mppu7x.png"
       />
 
-      <section class="social-nav">
-        <img
-          class="fb-facebook-facebook-logo-icon"
-          loading="lazy"
-          alt=""
-          src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725033265/5365678-fb-facebook-facebook-logo-icon-2_2x_ncv6i2.png"
-        />
+      <nav class="navigation1">
+        <button class="group-button" id="groupButton">
+          <div class="frame-child1"></div>
+          <a class="home1">HOME</a>
+        </button>
+        <button class="rectangle-parent1" id="groupButton1">
+          <div class="frame-child2"></div>
+          <a class="about1">ABOUT</a>
+        </button>
+        <button class="rectangle-parent2" id="groupButton2">
+          <div class="frame-child1"></div>
+          <a class="hobbies1">HOBBIES </a>
+        </button>
+        <div class="rectangle-parent3">
+          <div class="frame-child2"></div>
+          <a class="contact1">CONTACT</a>
+        </div>
+      </nav>
+      <section class="social">
+        <div class="social-icons">
+          <div class="platform-icons">
+            <img
+              class="fb-facebook-facebook-logo-icon"
+              loading="lazy"
+              alt=""
+              src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725264812/5365678-fb-facebook-facebook-logo-icon-2_2x_fw38h0.png"
+            />
 
-        <div class="page-links">
-          <div class="navigation1">
-            <div class="menu">
-              <nav class="menu-items">
-                <div class="rectangle-parent1">
-                  <div class="frame-child1"></div>
-                  <div class="menu-buttons" id="menuButtons"></div>
-                  <a class="home1">HOME</a>
-                </div>
-                <div class="rectangle-parent1">
-                  <div class="frame-child2" id="rectangle1"></div>
-                  <a class="about1">ABOUT</a>
-                </div>
-                <div class="rectangle-parent1">
-                  <div class="frame-child2" id="rectangle2"></div>
-                  <a class="hobbies1">HOBBIES</a>
-                </div>
-                <button class="group-button">
-                  <div class="frame-child4"></div>
-                  <a class="contact1">CONTACT</a>
-                </button>
-              </nav>
+            <div class="social-usernames">
+              <div class="mary-grace-paredes">Mary Grace Paredes</div>
             </div>
-            <h1 class="mary-grace-paredes">Mary Grace Paredes</h1>
           </div>
-        </div>
-      </section>
-      <div class="platform-icons">
-        <img
-          class="fb-facebook-facebook-logo-icon"
-          loading="lazy"
-          alt=""
-          src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725033264/1-instagram-colored-svg-1128-2_2x_eadxcf.png"
-        />
+          <div class="platform-icons1">
+            <img
+              class="fb-facebook-facebook-logo-icon"
+              loading="lazy"
+              alt=""
+              src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725264812/1-instagram-colored-svg-1128-2_2x_gl1v52.png"
+            />
 
-        <div class="greii-ciaa-wrapper">
-          <h1 class="greii-ciaa">@greii_ciaa</h1>
-        </div>
-      </div>
-      <section class="social-search">
-        <img
-          class="fb-facebook-facebook-logo-icon"
-          loading="lazy"
-          alt=""
-          src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725033265/4975303-search-web-internet-google-search-search-engine-icon-3_2x_agntrw.png"
-        />
+            <div class="greii-ciaa-wrapper">
+              <div class="greii-ciaa">@greii_ciaa</div>
+            </div>
+          </div>
+          <div class="platform-icons2">
+            <img
+              class="fb-facebook-facebook-logo-icon"
+              loading="lazy"
+              alt=""
+              src="https://res.cloudinary.com/drdqfuc0t/image/upload/v1725264812/4975303-search-web-internet-google-search-search-engine-icon-3_2x_bafnag.png"
+            />
 
-        <div class="paredes-mary-grace17-wrapper">
-          <h1 class="greii-ciaa">paredes mary grace17</h1>
+            <div class="social-usernames">
+              <div class="paredes-mary-grace17">paredes mary grace17</div>
+            </div>
+          </div>
         </div>
       </section>
     </div>
 
     <script>
-      var menuButtons = document.getElementById("menuButtons");
-      if (menuButtons) {
-        menuButtons.addEventListener("click", function (e) {
+      var groupButton = document.getElementById("groupButton");
+      if (groupButton) {
+        groupButton.addEventListener("click", function (e) {
+          window.location.href = "./desktop.html";
+        });
+      }
+      
+      var groupButton1 = document.getElementById("groupButton1");
+      if (groupButton1) {
+        groupButton1.addEventListener("click", function (e) {
           window.location.href = "./index.html";
         });
       }
       
-      var rectangle = document.getElementById("rectangle1");
-      if (rectangle) {
-        rectangle.addEventListener("click", function (e) {
-          window.location.href = "./desktop1.html";
-        });
-      }
-      
-      var rectangle = document.getElementById("rectangle2");
-      if (rectangle) {
-        rectangle.addEventListener("click", function (e) {
+      var groupButton2 = document.getElementById("groupButton2");
+      if (groupButton2) {
+        groupButton2.addEventListener("click", function (e) {
           window.location.href = "./desktop3.html";
         });
       }
